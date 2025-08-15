@@ -1,2 +1,16 @@
-# Weather_APP
-A  weather application that retrieves live weather data from external APIs.   The app allows users to enter a location (City, Zip Code, or GPS coordinates) and view  current weather conditions along with a 5-day forecast.   It also supports location-based weather detection, displays temperature, humidity, wind speed, .
+
+
+Simple Streamlit weather app that:
+- Accepts city / zip / coordinates / landmark input
+- Option to use approximate IP-based location
+- Shows current weather (from OpenWeatherMap) and a 5-day forecast summary
+
+## Setup
+
+1. Clone repo and navigate into it.
+
+2. Create virtual env (recommended) and install:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # or venv\\Scripts\\activate on Windows (PowerShell/CMD)
+   pip install -r requirements.txt
